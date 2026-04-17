@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@media print {
+  @page {
+    size: A4 portrait; /* or landscape if user wants, portrait is usually best for A4 documents like this if it fits */
+    margin: 10mm;
+  }
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    background: white !important;
+  }
+  .page-container {
+    page-break-after: always;
+    break-after: page;
+  }
+  .page-container:last-child {
+    page-break-after: auto;
+    break-after: auto;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Students Grades Tafqeet",
+  "description": "App for converting student grades into Arabic text (Tafqeet) and exporting to PDF in formal layout",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
